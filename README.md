@@ -40,9 +40,11 @@ java - jar imdb1000-0.0.1-SNAPSHOT.jar
 Wait for about 10 minutes for scraping to complete. Monitor the log under logs directory in the main directory to see the progress of movies scraped with the count. Monitor the command line to print Spring splashscreen, which once displayed signifies that server is ready.
 
 Issue the HTTP GET request like below. You can use browser of curl in CLI to issue these:
+```
 http://localhost:8080/movies?names=Steven Spielberg
 http://localhost:8080/movies?names=Steven Spielberg&names=Tom Hanks
 http://localhost:8080/movies?names=Thor&names=Doctor Strange
+```
 
 ## License
 
